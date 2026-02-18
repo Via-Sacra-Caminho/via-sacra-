@@ -1,0 +1,139 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": { "nome": "Caminho" },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-8.63293, 41.17558], [-8.63472, 41.17597], [-8.63766, 41.17552], 
+          [-8.63745, 41.17480], [-8.63741, 41.17361], [-8.63913, 41.17316], 
+          [-8.64066, 41.17388], [-8.64088, 41.17683], [-8.64191, 41.17774], 
+          [-8.64319, 41.17808], [-8.64430, 41.17863], [-8.64580, 41.17988], 
+          [-8.64602, 41.18102], [-8.64733, 41.18077], [-8.64756, 41.18042]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "1ª Estação",
+        "texto": "<h3>1. JESUS É CONDENADO</h3>Pilatos, governador já com uma carreira brilhante, depara-se com um réu inocente. A sua voz é incómoda. A sua mensagem mexe com muitos interesses instalados, por isso querem fazê-lo desaparecer.<br>É uma situação delicada para Pilatos. Se declarar a sua inocência, vai provocar um grande tumulto, sujeitar-se a queixas e à perda do cargo de Governador. Se proceder à sua condenação, será uma injustiça...<br>Diante este dilema, Pilatos devolve Jesus ao povo, mas, o povo grita pedindo que o crucifique.<br>Perante a insistência, o governador ordena que seja açoitado e depois crucificado. A seguir, lava as mãos pois não quer ser cúmplice deste sangue.<br><br><b>PRECE</b><br>Senhor Jesus, liberta-me do medo de me comprometer com a verdade e a justiça. Arranca do meu coração o comodismo, a indiferença e a hipocrisia. Não deixes que eu seja cúmplice do sofrimento dos inocentes com o meu silêncio e omissão. Dá-me a força do Teu Espírito para assumir, mesmo que isso custe críticas ou incompreensão, que fico do lado da verdade e da dignidade humana."
+      },
+      "geometry": { "type": "Point", "coordinates": [-8.63293, 41.17558] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "2ª Estação",
+        "texto": "<h3>2. JESUS CARREGA A CRUZ</h3>Depois de Jesus ser condenado, os soldados maltrataram-no e apressam-se a trazer uma pesada cruz, para levar em ombros até ao Calvário.<br>A crucifixão era o maior dos suplícios que se impunha a um malfeitor.<br>Jesus abraça a cruz e, carregando-a, dá início à caminhada do Gólgota.<br><br><b>PRECE:</b><br>Mestre, dá-me forças para, como tu, aceitar os momentos de dor e de tristeza. Ajuda-me a amar as cruzes, pequenas ou grandes, da minha vida."
+      },
+      "geometry": { "type": "Point", "coordinates": [-8.63472, 41.17597] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "3ª Estação",
+        "texto": "<h3>3. JESUS CAI PELA PRIMEIRA VEZ</h3>Ao colocar o pé numa pedra da calçada incerta, a caminho do Calvário, Jesus escorrega e cai sob o peso da cruz. Os soldados riem e, violentamente, sem qualquer compaixão, aos gritos e chicotadas obrigam-no a levantar-se. O pó manchou a túnica e colou-se às feridas. Esgotado, Ele pega de novo na cruz.<br><br><b>PRECE</b><br>Senhor, quando o peso da vida me fizer cair, não me deixes ficar no chão. Ajuda-me a não perder a esperança, mesmo quando tudo parece difícil. Ensina-me a aceitar a fraqueza das minhas forças e a fragilidade do meu ser. Renova o meu coração e dá-me coragem para continuar a caminhar na fidelidade à vontade do Pai."
+      },
+      "geometry": { "type": "Point", "coordinates": [-8.63766, 41.17552] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "4ª Estação",
+        "texto": "<h3>4. JESUS ENCONTRA SUA MÃE</h3>A caminho do Calvário, Maria vai ao encontro de seu filho. Ela corre movida por aquela generosa coragem que só o coração das mães conhece. Levou-lhe tudo o que podia dar, a sua presença carinhosa.<br>Mãe e Filho compreendem-se. Não precisaram de palavras. Maria, que tudo meditava no seu coração, terá lembrado a profecia de Simeão: «Uma espada de dor trespassará a tua alma».<br><br><b>PRECE.</b><br>Virgem Santíssima olha para a nossa comunidade, para os nossos lares. Que as nossas famílias Te tenham por Conselheira, por Mestra e Mãe, e a Ti recorram nas horas difíceis. Cuida das nossas crianças e jovens para que encontrem, em seus lares, Amor, Paz, Perdão e Fé. Que, ao olhar para Ti, aprendamos a dizer com confiança: “Seja feita a Tua vontade”."
+      },
+      "geometry": { "type": "Point", "coordinates": [-8.63745, 41.17480] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "5ª Estação",
+        "texto": "<h3>5. SIMÃO DE CIRENE CARREGA A CRUZ DE JESUS</h3>Pelo caminho, lançam a mão a um certo homem, que voltava do campo, e carregam-no com a cruz. Não por compaixão, mas, para não perder o espetáculo de crucificar um malfeitor com vida. Este homem, Simão de Cirene, não recebe com entusiasmo aquele madeiro manchado de sangue, mas segue, lentamente, os passos dolorosos de Jesus...<br><br><b>PRECE</b><br>Senhor, ensina-me a reconhecer o Teu rosto nos meus irmãos em sofrimento. Dá-me coragem para parar, mesmo quando tenho pressa. Ensina-me a carregar a cruz do outro, com bondade e simplicidade. Que eu não fuja das situações difíceis, mas as viva com amor. Faz de mim, Senhor, um cireneu de hoje: alguém que ajuda, levanta e acompanha."
+      },
+      "geometry": { "type": "Point", "coordinates": [-8.63741, 41.17361] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "6ª Estação",
+        "texto": "<h3>6. VERÓNICA ENXUGA O ROSTO DE JESUS</h3>Há muita gente a ver passar os condenados. Alguns olham para Jesus e sentem pena. Mas têm medo de dizer o que sentem. É arriscado afirmar que estão do lado de Jesus... Inesperadamente, sai do meio da multidão uma mulher. Chega-se junto de Jesus e, com um lenço, limpa-lhe carinhosamente o sangue, o pó e o suor do rosto. É um ato de grande atrevimento que pode custar caro.<br><br><b>PRECE</b><br>Senhor Jesus, dá-me um coração sensível como o de Verónica. Dá-me a coragem de parar, de cuidar, de mostrar compaixão mesmo quando isso é malvisto. Ensina-me a transformar gestos simples em sinais do Teu amor. E que, em cada encontro com os meus irmãos, eu faça nascer um pouco de esperança."
+      },
+      "geometry": { "type": "Point", "coordinates": [-8.63913, 41.17316] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "7ª Estação",
+        "texto": "<h3>7. JESUS CAI PELA SEGUNDA VEZ</h3>O caminho que conduz ao Calvário é difícil. Embora ajudado por Simão, Jesus sente que os pés pesavam como chumbo. Basta uma pequena pedra para o fazer cair novamente. A multidão que vê, ri-se.<br><br><b>PRECE</b><br>Senhor Jesus, ensina-me o valor da Humildade, da Verdade e do Amor. Lembra-me que nada sou sem Ti."
+      },
+      "geometry": { "type": "Point", "coordinates": [-8.64066, 41.17388] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "8ª Estação",
+        "texto": "<h3>8. JESUS ENCONTRA–SE COM AS MULHERES DE JERUSALÉM</h3>Ao ver o Senhor em tão lastimoso estado, na subida do Calvário, um grupo de mulheres de Jerusalém não é capaz de esconder a emoção e chora por Ele. Olhando-as com muita ternura e compaixão, Jesus diz-lhes para não chorem por Ele, mas por elas e pelos seus filhos.<br><br><b>PRECE</b><br>Senhor Jesus, que eu não chore só por emoção, mas por amor e desejo de mudança. Dá‑me lágrimas que saibam ver e coração que saiba sentir. Converte as minhas lágrimas em gestos de paz e de amor."
+      },
+      "geometry": { "type": "Point", "coordinates": [-8.64088, 41.17683] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "9ª Estação",
+        "texto": "<h3>9. JESUS CAI PELA TERCEIRA VEZ</h3>Exausto e enfraquecido pela perda de sangue, já qualquer incerteza o faz cair. Novamente Jesus está por terra. Ouvem-se comentários de vingança, de chacota. Alguns pensam que jamais se levantará. A terceira queda é mais dolorosa e mais humilhante que as anteriores.<br><br><b>PRECE</b><br>Senhor Jesus, quando eu cair pela milésima vez, dá-me a força de recomeçar contigo. Ensina-me que o caminho do cristão é um contínuo levantar, e caminhar com perseverança até ao fim. Sê a minha força nas quedas, e o meu apoio nos dias difíceis."
+      },
+      "geometry": { "type": "Point", "coordinates": [-8.64191, 41.17774] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "10ª Estação",
+        "texto": "<h3>10. JESUS É DESPOJADO DAS SUAS VESTES</h3>O cortejo do condenado chega ao calvário. Enquanto se ultimam os preparativos para a crucifixão, os soldados tiram, com brutalidade, as vestes de Jesus. Alí, à vista de toda a gente... Depois, divertem-se sorteando entre eles as suas roupas.<br><br><b>PRECE</b><br>Senhor Jesus, que aceitaste ser despojado de tudo, tem compaixão da minha dureza de coração. Ser cristão é escolher não humilhar, não expor, não usar ninguém, mas defender a dignidade de cada pessoa, como se fosse o próprio Cristo. Ajuda-me a renunciar ao orgulho e à tentação da superioridade. Ensina-me a revestir os meus irmãos com respeito, ternura e justiça."
+      },
+      "geometry": { "type": "Point", "coordinates": [-8.64319, 41.17808] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "11ª Estação",
+        "texto": "<h3>11. JESUS É PREGADO NA CRUZ</h3>Chega a hora. Obedecendo à vontade do Pai, Jesus, caminha serenamente. Estende-se sobre a sua cruz, e cravam-lhe pregos nas mãos e nos pés…<br><br><b>PRECE</b><br>Senhor Jesus, não quero mais ser esse carrasco. Dá-me forças para me libertar de tudo o que, nas minhas atitudes, fere e crucifica os meus irmãos. Perdoa o mal que faço com a minha violência e crueldade. Toca o coração de todos aqueles que eu magoo, e faz-lhes sentir a doçura da Tua presença."
+      },
+      "geometry": { "type": "Point", "coordinates": [-8.64430, 41.17863] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "12ª Estação",
+        "texto": "<h3>12. JESUS MORRE NA CRUZ</h3>Jesus, estás de braços estendidos como quem abraça todo o mundo. As mãos presas, sustentando o corpo morto, entregam ao Pai o espírito que nunca deixou de viver. No entanto, os seus inimigos, cantam vitoriosos ao vê-lo imobilizado na cruz, completamente derrotado. Aparentemente a sua missão fracassou.<br><br><b>PRECE</b><br>Meu Deus, Tu que Te revelas justamente quando tudo parece fracasso e ausência, concede-me o Teu Espírito Santo para anunciar, mesmo que o mundo teime em Te renegar, que continuas de braços abertos e de coração a palpitar por cada um de nós."
+      },
+      "geometry": { "type": "Point", "coordinates": [-8.64580, 41.17988] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "13ª Estação",
+        "texto": "<h3>13. JESUS É DESCIDO DA CRUZ</h3>Descido da cruz por um grupo de amigos, o corpo de Jesus é deposto nos braços de Maria. Ela, que O tinha tomado nos braços no momento do nascimento, acompanhado nos caminhos da vida, não O abandona no caminho da morte... retoma-O nos seus braços.<br><br><b>PRECE</b><br>Senhor, que Te consagre sempre as minhas dores, medos e tribulações, porque acredito que não me abandonas. Dá-me a graça de revigorar as minhas forças olhando Tua MÃE, a VIRGEM do SIM, e como Ela dizer sempre: «Faça-se ó Pai, a Tua vontade»."
+      },
+      "geometry": { "type": "Point", "coordinates": [-8.64602, 41.18102] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "14ª Estação",
+        "texto": "<h3>14. JESUS É DEPOSITADO NO SEPULCRO</h3>Amigos e piedosas mulheres, ungem apressadamente o corpo de Jesus, segundo o costume dos judeus, antes de começar o tempo sagrado do sábado. Depositam Jesus num sepulcro novo, cavado na rocha, onde ainda ninguém tinha sido sepultado. Silêncio e solidão ao redor deste túmulo. Só os inimigos se agitam… E se Ele ressuscitasse? O melhor será colocar guardas junto do sepulcro.<br><br><b>PRECE</b><br>Senhor, perdoa-me quando desisto antes de tempo e esqueço que a última palavra Te pertence. Dá-me ardor missionário, que eu possa ser o Teu anúncio, mesmo no trabalho pastoral mais insignificante. Ajuda-me a perseverar, como São Paulo, e a poder dizer com verdade: “Ai de mim se não evangelizar!”."
+      },
+      "geometry": { "type": "Point", "coordinates": [-8.64733, 41.18077] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "15ª Estação",
+        "texto": "<h3>15. A RESSURREIÇÃO DE JESUS</h3>Abriu-se-lhes o espírito e puderam compreender as Escrituras. “…O Messias havia de sofrer e de ressuscitar dos mortos ao terceiro dia”.<br><br><b>PRECE</b><br>Senhor, aumenta a minha fé e o meu amor por Ti, para que eu Te reconheça vivo no meio de nós: no sorriso das crianças, na beleza da criação, no amor e na caridade dos que Te conhecem. ConTigo quero trabalhar por um mundo novo, onde o Amor e a Verdade se encontrem, onde a Justiça e a Paz se abracem. Ressuscitou! Ressuscitou!"
+      },
+      "geometry": { "type": "Point", "coordinates": [-8.64756, 41.18042] }
+    }
+  ]
+}
