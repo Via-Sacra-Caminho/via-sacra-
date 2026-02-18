@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="utf-8" />
+    <title>Via-Sacra Digital</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <style>
+        :root { --roxo: #6A0DAD; --dourado: #FFD700; }
+        body { margin: 0; padding: 0; font-family: 'Segoe UI', Roboto, sans-serif; overflow: hidden; }
+        #map { height: 100vh; width: 100vw; background: #242424; }
+
+        .progress-panel {
+            position: absolute; top: 10px; left: 10px; width: calc(100% - 110px);
+            background: rgba(255, 255, 255, 0.95); padding: 12px; border-radius: 12px;
+            z-index: 1000; border: 1px solid var(--dourado); box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+        }
+        .dist-info { font-size: 20px; font-weight: bold; color: var(--roxo); text-align: center; }
+
+        .number-icon {
+            background: var(--roxo); border: 2px solid var(--dourado); border-radius: 50%;
+            color: white; font-weight: bold; text-align: center;
+            line-height: 28px; font-size: 14px; box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+        }
+
+        .btn-start {
+            position: absolute; bottom: 35px; left: 50%; transform: translateX(-50%);
+            z-index: 1000; padding: 16px 40px; background: var(--roxo); color: white;
+            border: 2px solid var(--dourado); border-radius: 30px; font-weight: bold;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.4); cursor: pointer; text-transform: uppercase;
+        }
+
+        .leaflet-control-layers { border: 2px solid var(--dourado) !important; border-radius: 8px !important; }
+        .leaflet-popup-content-wrapper { border-radius: 10px; padding: 5px; }
+        .station-popup h3 { color: var(--roxo); border-bottom: 1px solid var(--dourado); margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <div class="progress-panel"><div class="dist-info">Via-Sacra</div></div>
+    <button class="btn-start" id="startBtn" onclick="ativarGPS()">Ativar Localização</button>
+    <div id="map"></div>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script>
+        var mapaDia = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { maxZoom: 19 });
+        var mapaNoite = L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', { maxZoom: 19 });
+
+        var map = L.map('map', { zoomControl: false, attributionControl: false, layers: [mapaDia] })
+                   .setView([41.17558, -8.63293], 17);
+
+        L.control.layers({ "☀️ Dia": mapaDia, "🌙 Noite": mapaNoite }, null, { position: 'topright' }).addTo(map);
+
+        var userMarker;
+
+        fetch('rota.geojson?v=' + Date.now())
+            .then(r => r.json())
+            .then(data => {
+                L.geoJSON(data, {
+                    style: { color: '#FFD700', weight: 4, dashArray: '5, 10', opacity: 0.7 },
+                    pointToLayer: function(f, latlng) {
+                        var num = f.properties.nome.match(/\d+/)[0];
+                        var icon = L.divIcon({ className: 'number-icon', html: num, iconSize: [30, 30] });
+                        return L.marker(latlng, { icon: icon }).bindPopup(`<div class="station-popup">${f.properties.texto}</div>`, { maxWidth: 280 });
+                    }
+                }).addTo(map);
+            });
+
+        function ativarGPS() {
+            const btn = document.getElementById('startBtn');
+            btn.innerText = "A ligar GPS...";
+            
+            if (!navigator.geolocation) {
+                alert("O seu telemóvel não suporta GPS.");
+                return;
+            }
+
+            navigator.geolocation.getCurrentPosition(function() {
+                btn.style.display = 'none';
+                map.locate({ setView: true, watch: true, enableHighAccuracy: true, maxZoom: 18 });
+            }, function(err) {
+                alert("Erro: Por favor, permita o acesso à localização nas definições do seu navegador.");
+                btn.innerText = "TENTAR NOVAMENTE";
+            }, { enableHighAccuracy: true });
+        }
+
+        map.on('locationfound', function(e) {
+            if (!userMarker) {
+                userMarker = L.circleMarker(e.latlng, { radius: 9, color: 'white', fillColor: '#007AFF', fillOpacity: 1, weight: 3 }).addTo(map);
+            } else { userMarker.setLatLng(e.latlng); }
+        });
+    </script>
+</body>
+</html>
